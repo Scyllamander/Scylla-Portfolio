@@ -25,6 +25,7 @@ h1, p {
 .title {
     margin-left: 40%;
     margin-right: 40%;
+    padding-bottom: 0;
 }
 p{
 
@@ -43,6 +44,21 @@ p{
 
 
     }
+
+.buttonCurrent {
+        border: 2px solid #000000;
+        color:#591f1f;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 75%);
+        color: white;
+        font-size: 16px;
+        padding: 16px;
+        border-radius: 12px;
+        cursor: pointer;
+        transition-duration: 0.5s;
+    
+    
+        }
     
 .navButton:hover {
         background-color: #5bf5ad;
