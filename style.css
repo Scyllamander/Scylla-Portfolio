@@ -1,10 +1,9 @@
 body {
-    background: rgb(50,4,4);
-    background: radial-gradient(circle, rgba(50,4,4,1) 68%, rgba(0,0,0,1) 100%);
+    background: rgb(0, 0, 0);
 }
 h1, p {
     text-align: center;
-    color: #5bf5ad;
+    color: #90ff64;
 }
 .nameHome, .title {
 
@@ -18,8 +17,7 @@ h1, p {
     margin-left: 35%;
     margin-right: 35%;
     border-radius: 6px;
-    background: rgb(50,4,4);
-    background: radial-gradient(circle, rgba(50,4,4,1) 0%, rgba(62,77,60,1) 85%, rgba(76,163,126,1) 100%);
+    background: rgb(0, 0, 0);
 }
 
 .title {
@@ -31,7 +29,7 @@ p{
 
 }
 .navButton {
-    border: 2px solid #5bf5ad;
+    border: 2px solid #a1ff53;
     color:#591f1f;
     text-align: center;
     background-color: rgba(0, 0, 0, 75%);
@@ -47,10 +45,10 @@ p{
 
 .buttonCurrent {
         border: 2px solid #000000;
-        color:#591f1f;
+        color:#000000;
         text-align: center;
         background-color: rgba(0, 0, 0, 75%);
-        color: white;
+        color: #90ff64;
         font-size: 16px;
         padding: 16px;
         border-radius: 12px;
@@ -61,7 +59,7 @@ p{
         }
     
 .navButton:hover {
-        background-color: #5bf5ad;
+        background-color: #90ff64;
         color: black;
         border-color: black;
     }
@@ -73,6 +71,10 @@ p{
     margin: auto;
     padding: 5px;
     text-align: center;
+    margin-top: ;
+    position: fixed;
+    left: 5%;
+    top: 25%;
 }
 
 .intro {
@@ -80,7 +82,19 @@ p{
     margin: auto;
     font-size: 20px;
     padding: 0px;
-    border: 0px solid #5bf5ad;
-    margin-left: 35%;
-    margin-right: 35%;
+    border: 0px solid #90ff64;
+    position: relative;
+    top: 400px;
+
+
+}
+
+.logo {
+    width: 500px;
+    height: auto;
+    position: fixed;
+    left: -5%;
+    top: -5%;
+    
+    
 }
