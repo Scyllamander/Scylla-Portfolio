@@ -1,5 +1,6 @@
 body {
     background: rgb(0, 0, 0);
+    text: #ffffff;
 }
 h1, p {
     text-align: center;
@@ -25,9 +26,7 @@ h1, p {
     margin-right: 40%;
     padding-bottom: 0;
 }
-p{
 
-}
 .navButton {
     border: 2px solid #a1ff53;
     color:#591f1f;
@@ -97,4 +96,13 @@ p{
     top: -5%;
     
     
+}
+
+#project {
+    font: #ffffff;
+    border:#90ff64;
+    position: relative;
+    top: 500px;
+    left: -20%;
+
 }
