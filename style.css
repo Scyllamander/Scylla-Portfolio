@@ -108,7 +108,7 @@ body {
 
 }
 
-#project-button {
+#project-button-meow {
     border: 2px solid #a1ff53;
     color:#591f1f;
     text-align: center;
@@ -121,6 +121,26 @@ body {
     transition-duration: 0.5s;
     position: fixed;
     left: 25%;
+    top: 40%;
+    font: white;
+
+   
+}
+
+#project-button-fear {
+    border: 2px solid #a1ff53;
+    color:#591f1f;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 75%);
+    color: white;
+    font-size: 24px;
+    padding: 16px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    position: fixed;
+    left: 25%;
+    top: 70%;
     font: white;
 
    
@@ -141,6 +161,19 @@ a {
     top: 40%;
     width: 450px;
     height: auto;
+}
+
+#fear-image {
+
+    border: 4px solid #90ff64;
+    display: inline;
+    position: fixed;
+    left: 35%;
+    top: 70%;
+    width: 450px;
+    height: auto;
+
+
 }
 
 #bio {
@@ -188,4 +221,9 @@ a {
     max-width: fit-content;
     margin-inline: auto;
     position: relative;
+}
+
+#azshara {
+    width: 23%;
+    height: auto;
 }
